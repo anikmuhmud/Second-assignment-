@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --main-gradient: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+  --primary-color: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+}
+
+:root {
+  --wave-gradient: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+}
+
+.hover:hover{
+    background-image: var(--main-gradient);
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
