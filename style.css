@@ -23,7 +23,7 @@
 }
 
 .animation{
-  animation: animat linear 6s  infinite ;
+  animation: animat linear 3s  infinite ;
 }
 
 @keyframes animat {
