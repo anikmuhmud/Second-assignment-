@@ -21,3 +21,31 @@
   font-optical-sizing: auto;
   
 }
+
+.animation{
+  animation: animat linear 6s  infinite ;
+}
+
+@keyframes animat {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
+
